@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'biome';
+    src: url('./biome-pro-light.otf') format(truetype);
+}
+@font-face {
+    font-family: 'biomebold';
+    src: url('./biome-pro-bold.otf') format(truetype);
+}
+html{
+    font-family: 'biome';
+}
+body{
+    margin: auto;
+    background-color: rgb(208, 229, 247);
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+}
+.bodyhome{
+    background:url(background.webp) no-repeat left top, url(background2.webp) repeat-y left center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    background-color: rgba(0,0,255,0.1);
+}
+#navautre{
+    display: flex;
+    background-color: rgb(2, 9, 64);
+}
+.navtitle{
+    font-family: 'biome';
+    padding: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: lightskyblue;
+}
+.navtitle:hover{
+    color: rgb(200, 233, 244);
+}
+a{
+    text-decoration: none;
+}
+#presentation{
+    font-weight: bolder;
+    margin-top: 200px;
+    margin-left: 60px;
+    color: lightskyblue;
+    font-size: 70px;
+}
+ul{
+    list-style: none;
+}
+.ul{
+    list-style:disc;
+}
+hr{
+    border: 1px solid rgb(2, 9, 64);
+    width: 700px;
+<<<<<<< HEAD
+}
+=======
+}
+.info{
+    padding: 0;
+    margin: 0;
+}
+>>>>>>> 3888f0a02ddfb3d0dcc6a37ad72b9c6b02c0b945
